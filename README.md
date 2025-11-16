@@ -7,7 +7,7 @@ the debug button - https://github.com/search?q=repo%3AAllYarnsAreBeautiful%2Faya
 
 i.e. in board.h
 
-#define DBG_NOMACHINE 1
+    #define DBG_NOMACHINE 1
 
 I haven't tested it with a real machine
 
@@ -18,18 +18,18 @@ I haven't tested it with a real machine
 
 plug in the arduino and then
 
-   python server.py
+    python server.py
 
 
 ## Send a line and start the knitting:
 
-   curl http://localhost:5000/send_line_and_knit?line=0101010
+    curl http://localhost:5000/send_line_and_knit?line=0101010
 
 0 is black and 1 is white. It stops automatically at the end
 
 ## test - send a random line
 
-   curl http://localhost:5000/send_random
+    curl http://localhost:5000/send_random
 
 You need to call start_knitting after
 
@@ -41,12 +41,12 @@ You need to call start_knitting after
 
 ## start knitting
 
-   curl http://localhost:5000/start_knitting
+    curl http://localhost:5000/start_knitting
 
 it stops automatically at the end
 
 ## load an image from a post request
 
-   curl -X POST http://localhost:5000/load_image -d image=/Users/libby/ayab-server/patterns/stirnband_160x20.png
+    curl -X POST http://localhost:5000/load_image -d image=/Users/libby/ayab-server/patterns/stirnband_160x20.png
 
 You need to call start_knitting after
