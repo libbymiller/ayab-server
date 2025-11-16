@@ -1,0 +1,12 @@
+{
+        "machine": "KH910_KH950",
+        "default_knitting_mode": "Singlebed",
+        "default_infinite_repeat": "False",
+        "default_alignment": "Center",
+        "default_knit_side_image": "False",
+        "quiet_mode": "False",
+        "disable_hardware_beep": "False",
+        "num_colors": 2,
+        "start_row": 0,
+        "start_needle": 0
+}
