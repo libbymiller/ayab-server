@@ -1,6 +1,6 @@
 # ayab-server
 
-A hacked around versio of AYAB-desktop to send single lines using a web server and curl
+A hacked around version of https://github.com/AllYarnsAreBeautiful/ayab-desktop to remove the python UI and send single lines using a web server and curl.
 
 It's pretty messy. I made it using an Arduino and no shield - using https://github.com/AllYarnsAreBeautiful/ayab-firmware using 
 the debug button - https://github.com/search?q=repo%3AAllYarnsAreBeautiful%2Fayab-firmware+DBG_BTN_PIN&type=code
